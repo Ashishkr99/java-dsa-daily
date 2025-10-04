@@ -13,7 +13,7 @@ public class starCross {
         {
             for (int j=1;j<=row;j++)
             {
-                if(i==k || j==k)
+                if(i==j || i+j==row+1)
                     System.out.print  ("* ");
                 else
                     System.out.print  ("  ");
